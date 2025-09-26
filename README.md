@@ -40,4 +40,4 @@ A diagram was developed to visualize the relationships and feedback loops that i
 
 ## Final Report
 The full analysis and conclusions are available in the compiled PDF:
-[Workshop_1.pdf](./Workshop_1.pdf)
+[Workshop_1.pdf](Report.pdf/Workshop_1.pdf)
