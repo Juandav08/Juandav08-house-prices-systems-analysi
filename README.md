@@ -36,21 +36,12 @@ A diagram was developed to visualize the relationships and feedback loops that i
 
 ---
 
-
-
 ## Final Report
 The full analysis and conclusions are available in the compiled PDF:
 [Workshop_1.pdf](Report.pdf/Workshop_1.pdf)
 
+--- 
 #  Workshop 2 — Kaggle Systems Design
-
-**Course:** Systems Analysis & Design  
-**Semester:** 2025-III  
-**Instructor:** Eng. Carlos Andrés Sierra, M.Sc.  
-**University:** Universidad Distrital Francisco José de Caldas  
-**Program:** Computer Engineering  
-
----
 
 ##  Overview
 
@@ -122,7 +113,7 @@ These mechanisms enable the system to adapt to dynamic market behaviors and main
 ---
 ## 🧾 Deliverables
 
-- **📄 System Design Document:** [`docs/Workshop_2_Design.pdf`](./docs/Workshop_2_Design.pdf)  
+- **📄 System Design Document:** [Workshop_2.pdf](Report.pdf/Workshop_2.pdf)  
 - **📘 README.md:** Current file summarizing the workshop, objectives, and implementation details.  
 - **📂 GitHub Repository:** Includes all code modules, documentation, and generated results.
 
