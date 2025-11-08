@@ -117,5 +117,120 @@ These mechanisms enable the system to adapt to dynamic market behaviors and main
 - **📘 README.md:** Current file summarizing the workshop, objectives, and implementation details.  
 - **📂 GitHub Repository:** Includes all code modules, documentation, and generated results.
 
+# Workshop 3 — Robust System Design and Project Management
+
+## Overview
+
+This repository now includes the deliverables for **Workshop #3** of the *Systems Analysis & Design* course.  
+Building upon the results and architecture developed in **Workshop 1** (Systemic Analysis) and **Workshop 2** (System Design), this phase focuses on strengthening the system’s **robustness, quality assurance**, and **project management practices**.
+
+The goal is to ensure that the predictive system for the *Kaggle House Prices* competition is not only technically functional but also **reliable, maintainable, and managed under structured project control**. The workshop integrates **robust engineering**, **risk management**, and **agile methodologies** into a coherent, high-quality development process.
+
+---
+
+## Objectives
+
+- Refine and document a **robust system architecture** aligned with ISO 9000 and CMMI principles.  
+- Identify potential **risks and failure points**, proposing mitigation and monitoring strategies.  
+- Define a complete **project management plan** including team roles, milestones, and agile practices.  
+- Apply **Scrum methodology** to manage sprints, reviews, and retrospectives.  
+- Ensure **traceability, reproducibility, and continuous improvement** through version control and quality checks.  
+- Document **incremental improvements** derived from previous workshops.
+
+---
+
+## Robust Architecture Overview
+
+The refined system architecture emphasizes **fault tolerance, scalability, and maintainability**.  
+It is structured into six modular subsystems:
+
+1. **Data Ingestion** — Validates and loads raw data while performing schema and consistency checks.  
+2. **Processing** — Applies imputation, encoding, feature scaling, and outlier mitigation.  
+3. **Modeling** — Integrates preprocessing and training pipelines with hyperparameter optimization.  
+4. **Serving** — Provides batch and online prediction interfaces for inference.  
+5. **Monitoring** — Detects performance drift and data distribution changes.  
+6. **Orchestration** — Coordinates the entire workflow via automated scheduling and retraining.
+
+Key design principles:
+- **Modularity:** Independent components with clear data interfaces.  
+- **Scalability:** Support for horizontal expansion of processing and model serving.  
+- **Fault Tolerance:** Use of checkpoints and recovery mechanisms during data processing.  
+- **Maintainability:** Clean, version-controlled modular codebase (GitHub).  
+- **Traceability:** Monitoring and logging pipelines for reproducibility and auditability.
+
+The architecture aligns with **ISO 9000** standards for quality assurance and **CMMI maturity level practices** for process improvement and control.
+
+---
+
+## Risk and Quality Management
+
+A formal **Risk Identification and Mitigation Plan** was developed to ensure system reliability across technical and operational dimensions.
+
+| **Risk** | **Description** | **Impact** | **Mitigation Strategy** | **Monitoring Method** |
+|-----------|-----------------|-------------|--------------------------|-----------------------|
+| Data Loss | Dataset corruption or deletion during preprocessing or storage. | High | Maintain version-controlled backups in GitHub repositories. | Weekly checksum validation. |
+| Model Drift | Decline in model performance due to changing data distributions. | Medium | Track RMSE deviations and trigger automated retraining. | Post-training performance reviews. |
+| Security Breach | Unauthorized access to project repositories. | Medium | Enforce two-factor authentication and least-privilege access policies. | Access log audits. |
+| Team Coordination Failure | Communication breakdown or task overlap among sub-teams. | Medium | Use Trello-based Kanban boards and weekly Scrum meetings. | Sprint review tracking. |
+| Implementation Error | Bugs or inconsistencies during preprocessing or modeling. | Low | Conduct peer code reviews and automated unit tests. | Continuous integration checks. |
+
+This framework guarantees that quality assurance and risk mitigation are continuously monitored and updated throughout each sprint.
+
+---
+
+## Project Management and Methodology
+
+The team adopted the **Scrum framework** to manage development cycles. Roles and responsibilities were clearly assigned:
+
+- **Product Owner (Juan David Zárate Moya):** Defines the project vision, manages backlog, and ensures alignment between academic and technical objectives.  
+- **Scrum Master (Kevin David Rincón Valencia):** Facilitates communication, removes blockers, and ensures adherence to Scrum principles.  
+- **Development Team (Jesús Mateo Múnevar Méndez & Juan David Romero Morales):** Designs, implements, and tests all technical components.
+
+### Scrum Implementation
+| **Scrum Element** | **Application in Project** |
+|--------------------|----------------------------|
+| Product Backlog | List of functionalities and deliverables (ingestion, preprocessing, modeling, documentation). |
+| Sprint | Weekly iterations (e.g., architecture refinement, risk analysis, simulation design). |
+| Daily Scrum | Asynchronous updates via WhatsApp/GitHub messages. |
+| Sprint Review | Presentation of progress and outcomes from each sub-team. |
+| Retrospective | Discussion of improvements for the next iteration. |
+
+The team combined **Trello (Kanban)** and **TeamGantt (Gantt chart)** to visualize progress, ensuring task traceability and balanced workload distribution.
+
+---
+
+## Quality Assurance
+
+Quality was maintained through:
+- **Version control (GitHub)** with independent branches and peer review merges.  
+- **Collaborative sprint reviews** for early feedback.  
+- **Verification & validation** for each pipeline module (ingestion, preprocessing, modeling).  
+- **Continuous improvement** via logged monitoring metrics and testing iterations.
+
+These practices ensure system reliability, transparency, and academic integrity.
+
+---
+
+## Incremental Improvements and Lessons Learned
+
+The project evolved significantly across workshops:
+
+- **Workshop 1:** Established a systemic understanding of the real estate prediction problem, identifying sensitivity and complexity.  
+- **Workshop 2:** Defined a modular architecture and integrated sensitivity management techniques (scaling, regularization, monitoring).  
+- **Workshop 3:** Consolidated these insights into a robust, agile-managed system with risk control and continuous improvement practices.
+
+Through this iterative process, the team achieved a **robust, maintainable, and scalable predictive system**, reflecting both engineering discipline and adaptability to dynamic data environments.
+
+---
+
+## 🧾 Deliverables
+
+- **📄 Robust System Design Report:** [Workshop_3.pdf](Report.pdf/Workshop_3.pdf)  
+- **📘 README.md:** Updated file summarizing all workshops and project progression.  
+- **📂 GitHub Repository:** Includes LaTeX source files, diagrams, risk management tables, and architecture updates.
+
+---
+
+
 
 
